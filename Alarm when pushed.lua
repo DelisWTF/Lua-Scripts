@@ -21,7 +21,7 @@ Module.New("Alarm when pushed", function ()
 
             -- play sound
             Rifbot.PlaySound(SOUND)
-
+            Rifbot.setEnabled(false)
         -- check if all is fine.
         else    
 
